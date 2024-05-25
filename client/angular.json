@@ -54,7 +54,7 @@
             "styles": [
               "src/styles.scss",
               "src/css/bootstrap.min.css",
-              "src/css/leaflet.min.css",
+              "node_modules/leaflet/dist/leaflet.css",
               "src/css/leaflet.groupedlayercontrol.min.css",
               "src/css/MarkerCluster.css",
               "src/css/MarkerCluster.Default.css"
@@ -62,15 +62,13 @@
             "scripts": [
               "src/js/jquery-3.4.1.min.js",
               "src/js/bootstrap.bundle.min.js",
-              "src/js/leaflet.js",
+              "node_modules/leaflet/dist/leaflet.js",
               "src/js/wise-leaflet-pip.js",
               "src/js/localforage.min.js",
               "src/js/leaflet.mouseposition.js",
               "src/js/leaflet.groupedlayercontrol.min.js",
               "src/js/leaflet.markercluster.js",
-              "src/js/leaflet.featuregroup.subgroup.js",
-              "src/js/data.js",
-              "src/js/map.js"
+              "src/js/leaflet.featuregroup.subgroup.js"
             ]
           },
           "configurations": {

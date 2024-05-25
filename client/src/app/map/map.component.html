@@ -1,0 +1,30 @@
+<div id="pois-dialog" class="parent flex-center" style="display:none;">
+  <div class="panel-parent flex-center">
+    <div id="pois" class="panel">
+    </div>
+    <div class="panel-footer">
+      <button type="button" class="btn btn-secondary poi-btn">Close</button>
+    </div>
+  </div>
+</div>
+<div id="map" class="wrapper map">
+  <main>
+  </main>
+</div>
+<div class="button-wrapper">
+  <div id="btnSwitch" class="btn btn-secondary info-btn" (click)="switchMap()">
+    Switch Map
+  </div>
+  <br>
+  <div class="btn btn-secondary info-btn poi-btn" (click)="togglePOI()">
+    Points of Interest
+  </div>
+  <br>
+  <div class="btn btn-secondary info-btn toggle-collected-btn" (click)="toggleCollected()">
+    Toggle Collected
+  </div>
+  <br>
+  <div class="btn btn-secondary info-btn toggle-camp-tower-btn" (click)="toggleCampTowerRift()">
+    Toggle Camp/Tower/Rift
+  </div>
+</div>
