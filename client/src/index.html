@@ -1,13 +1,46 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <title>Client</title>
-  <base href="/">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <title>DYSMANTLE Interactive Map v1.2.1</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  <meta name="description" content="An interactive map for DYSMANTLE [Based on game version 1.2.1]."/>
+  <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+  <meta name="theme-color" content="#383838">
+  <link rel="icon" type="image/png" sizes="64x64" href="/assets/images/icon-x3.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/icon-x2.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/images/icon-x1.png">
+  <meta name="theme-color" content="#383838">
 </head>
-<body>
-  <app-root></app-root>
+<body class="noselect">
+<div id="pois-dialog" class="parent flex-center" style="display:none;">
+  <div class="panel-parent flex-center">
+    <div id="pois" class="panel">
+    </div>
+    <div class="panel-footer">
+      <button type="button" class="btn btn-secondary poi-btn">Close</button>
+    </div>
+  </div>
+</div>
+<div id="map" class="wrapper map">
+  <main>
+  </main>
+</div>
+<div class="button-wrapper">
+  <div id="btnSwitch" class="btn btn-secondary info-btn">
+    Switch Map
+  </div>
+  <br>
+  <div class="btn btn-secondary info-btn poi-btn">
+    Points of Interest
+  </div>
+  <br>
+  <div class="btn btn-secondary info-btn toggle-collected-btn">
+    Toggle Collected
+  </div>
+  <br>
+  <div class="btn btn-secondary info-btn toggle-camp-tower-btn">
+    Toggle Camp/Tower/Rift
+  </div>
+</div>
 </body>
 </html>
